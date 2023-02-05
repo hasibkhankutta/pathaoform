@@ -6,7 +6,7 @@ $(document).ready(function() {
     var phoneNumber = $("#phone-number").val();
     var emailAddress = $("#email-address").val();
     $.ajax({
-      url: "https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec",
+      url: "https://script.google.com/macros/s/AKfycbys1tmU9w2tMm_aUISu6NXWz1o-Z-3i5FZIgT9a3Va7VwwJtYN3dCY5yb0deW-Vr8xL0Q/exec",
       type: "post",
       data: {
         "product-name": productName,
